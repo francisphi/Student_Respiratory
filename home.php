@@ -248,7 +248,7 @@
                             'success'
                         ).then(() => {
                             console.log("Redirecting to login page...");
-                            window.location.href = 'index.php'; // Redirect to login page
+                            window.location.href = 'index.html'; // Redirect to login page
                         });
                     })
                     .catch(function (error) {
